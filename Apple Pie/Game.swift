@@ -2,7 +2,7 @@
 //  Game.swift
 //  Apple Pie
 //
-//  Created by Ray Berry on 14/11/2018.
+//  Created by Ray and James Berry on 14/11/2018.
 //  Copyright © 2018 JARBerry. All rights reserved.
 //
 
@@ -15,6 +15,7 @@ struct Game {
     var guessedLetters: [Character]
     var score: Int
     
+    // check if letter input matches letter in the word selected. update scores and update the word displayed.
     
     mutating func playerGuessed(letter: Character) {
         guessedLetters.append(letter)
